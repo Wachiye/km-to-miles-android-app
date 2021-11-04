@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConvertActivity">
+
+    <TextView
+        android:id="@+id/lblApp"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblApp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lblKm"
+        android:layout_width="213dp"
+        android:layout_height="25dp"
+        android:text="@string/lblKm"
+        android:labelFor="@id/txtKm"
+        android:layout_below="@id/lblApp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/txtKm"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/lblKm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/lblMiles"
+        android:layout_width="213dp"
+        android:layout_height="34dp"
+        android:text="@string/lblMiles"
+        android:textStyle="bold"
+        android:layout_below="@id/txtKm"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/lblMiles1"
+        android:layout_width="213dp"
+        android:layout_height="28dp"
+        android:text=""
+        android:layout_below="@id/lblMiles"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="167dp"
+        android:layout_height="59dp"
+        android:text="@string/btnConvert"
+        android:layout_below="@id/lblMiles1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="#f5f5f5"
+        android:text="@string/btnQuit"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+</RelativeLayout>

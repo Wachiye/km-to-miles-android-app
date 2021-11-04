@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KM2MILES</string>
+    <string name="lblApp">Km2Miles Converter</string>
+    <string name="lblKm">Enter KM to convert</string>
+    <string name="lblMiles">Miles</string>
+    <string name="btnStart">Start</string>
+    <string name="btnConvert">Convert</string>
+    <string name="lblAuthor">Created By Wachiye Siranjofu</string>
+    <string name="txtKmHint">KM eg 10</string>
+    <string name="btnQuit">X</string>
+</resources>
